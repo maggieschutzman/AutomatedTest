@@ -16,7 +16,11 @@ namespace AutomatedTestLibrary {
             return i * 4;
         }
         // how much sales to break even
+        //public int X7X12(int i) {
+        //    return (i * i) - (7 * i) + 12;
+        //}
         public int X7X12(int i) {
+            if (i == 4) throw new Exception("I = 4");
             return (i * i) - (7 * i) + 12;
         }
     }
