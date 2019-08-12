@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedTest", "AutomatedTest\AutomatedTest.csproj", "{AECA67BF-A175-40C6-87CB-7EBF1B1173B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLibrary", "TestLibrary\TestLibrary.csproj", "{6E2E500D-DC43-44D8-8DC0-BF7928C6DB84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedTestLibrary", "TestLibrary\AutomatedTestLibrary.csproj", "{6E2E500D-DC43-44D8-8DC0-BF7928C6DB84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomatedTestingProject", "AutomatedTestingProject\AutomatedTestingProject.csproj", "{8728F5B7-5EF3-4092-A507-8B611D03C33A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6E2E500D-DC43-44D8-8DC0-BF7928C6DB84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E2E500D-DC43-44D8-8DC0-BF7928C6DB84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E2E500D-DC43-44D8-8DC0-BF7928C6DB84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8728F5B7-5EF3-4092-A507-8B611D03C33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8728F5B7-5EF3-4092-A507-8B611D03C33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8728F5B7-5EF3-4092-A507-8B611D03C33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8728F5B7-5EF3-4092-A507-8B611D03C33A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
